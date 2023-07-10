@@ -209,3 +209,32 @@
     font-size: 16px;
     font-weight: 400;
 }
+
+
+/* Footer section styles start here */
+.footer-section{
+    background-color: #111010;
+    text-align: center;
+    padding: 130px 0;
+    display: flex;
+    justify-content: center;
+}
+.footer-section-container{
+    max-width: 600px;
+}
+.footer-title{
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+}
+.footer-description-text{
+    color: #ffffffe6;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 25px auto 30px auto;
+}
+.footer-copyright-text{
+    color: #ffffff66;
+    font-size: 16px;
+    font-weight: 400;
+}
