@@ -107,9 +107,7 @@
     height:350px;
     width: 350px;
 }
-/* #second-feature-flower-style{
 
-} */
 #third-image-container-background{
     background-color: #477d1126;
 
@@ -127,4 +125,23 @@
     font-weight: 700;
     margin-top: 30px;
     text-decoration: underline;
+}
+
+/* Services Section */
+.services{
+    background-color: #2727270d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.services-container{
+    display: block;
+    text-align: center;
+    padding: 60px;
+}
+.services-details{
+    color: #272727cc;
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 600;
 }
