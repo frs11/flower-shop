@@ -5,6 +5,12 @@
 }
 
 /* Shared Styles goes here */
+.fixed-width-text-container{
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
 
 .description-text{
     color: #27272799;
@@ -13,6 +19,7 @@
     line-height: 30px;
     text-align: center;
     margin-top: 24px;
+    margin-bottom: 32px;
 }
 
 .btn-primary{
@@ -20,7 +27,7 @@
     color: white;
     border: none;
     padding: 20px 43px;
-    margin-top: 32px;
+    /* margin-top: 32px; */
     gap: 10px;
     border-radius: 10px;
     font-size: 20px;
@@ -79,10 +86,7 @@
 
 /* Feature Flower Section */
 
-.featured-flower-text-container{
-    width: 600px;
-    margin: 0 auto;
-}
+
 .feature-flower-container-box{
     display: flex;
     justify-content: space-around;
@@ -168,12 +172,7 @@
 }
 
 /* Instagram Section Styles */
-.instagram-text-container{
-    text-align: center;
-    max-width: 550px;
-    margin: 0 auto;
-    margin-bottom: 40px;
-}
+
 .instagram-image-container{
     display: flex;
     justify-content: space-between;
@@ -182,4 +181,31 @@
 .instagram-image-container img{
     width: 308px;
     height: 357px;
+}
+
+/* Latest Deals Section styles*/
+.latest-deal-section{
+    background-image: url("./images/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+}
+.submission-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#input-box{
+    width: 700px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 20px;
+    margin-right: 15px;
+
+}
+#input-box::placeholder{
+    color: #27272799;
+    font-size: 16px;
+    font-weight: 400;
 }
