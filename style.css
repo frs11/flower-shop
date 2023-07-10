@@ -11,6 +11,8 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    text-align: center;
+    margin-top: 24px;
 }
 
 .btn-primary{
@@ -26,6 +28,18 @@
     cursor: pointer;
     
 }
+
+.section-structure{
+    margin: 130px 240px;
+}
+
+.title-text{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
 
 /* Header sections styles are here */
 
@@ -47,7 +61,70 @@
     font-weight: 800;
     padding-bottom: 35px;
 }
+#rightside-description-text{
+    text-align: left;
+}
 .header-items-container{
     padding-left: 240px;
     max-width: 40%;
+}
+
+/* Main Section styles goes here */
+
+/* Feature Flower Section */
+
+.featured-flower-text-container{
+    width: 600px;
+    margin: 0 auto;
+}
+.feature-flower-container-box{
+    display: flex;
+    justify-content: space-around;
+}
+.feature-flower-container{
+    width: 400px;
+    height: 500px;
+    margin-top: 45px;
+    border-radius: 200px 200px 0 0;
+    display: flex;
+    align-items:end;
+}
+.feature-flower-container img{
+    width: 300px;
+    height: 400px;
+    padding: 40px 50px 0 50px;
+    /* bottom: 0; */
+}
+#first-image-container-background{
+    background-color: #a7216226;
+
+}
+#second-image-container-background{
+    background-color: #0597a026;
+    align-items: center;
+}
+#second-image-container-background img{
+    height:350px;
+    width: 350px;
+}
+/* #second-feature-flower-style{
+
+} */
+#third-image-container-background{
+    background-color: #477d1126;
+
+}
+.flower-tree-name-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.flower-tree-name{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 30px;
+    text-decoration: underline;
 }
