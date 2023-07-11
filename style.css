@@ -58,10 +58,22 @@
     height: 850px;
     display: flex;
     align-items: center;
-    justify-content: start;
-    background-image: url("./images/pngwing 10.png");
+    justify-content: space-around;
+
+
+    /* Ami sure chilam na Header section er Flower image ta kivabe use korte bolse, normal image hishebe naki background image hishebe. Tai normally use er shathe background img hishebeo set korar code ta niche comment out kore diye dilam. Hopefully you will forgive if I made any mistakes. */
+
+
+    /* background-image: url("./images/pngwing 10.png");
     background-position: bottom right;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+}
+
+.header-image-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    margin-bottom: -50px;
 }
 
 .headline-text{
@@ -159,7 +171,7 @@
 .best-selling-item-container{
     display: block;
     justify-content: space-around;
-    background-image: linear-gradient(45deg, #e554731a, #2727270d );
+    background-image: linear-gradient(45deg, #e554731a, #e6c8c80d, #fa77931a);
     padding: 60px 0;
 }
 .best-selling-image-container{
@@ -170,7 +182,8 @@
     width: 308px;
     height: 357px;
     border-radius: 50px;
-    border: 3px solid #eb8ca1c7;
+    /* border: 3px solid #eb8ca1c7; */
+    box-shadow: 15px 25px 40px gray;
 }
 .flower-name-container{
     display: flex;
